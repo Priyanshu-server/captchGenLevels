@@ -1,0 +1,54 @@
+.hero{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.highlited-text{
+    font-weight: 4rem !important;
+    border: 3px solid limegreen;
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+
+ .hero h1:nth-child(3){
+     color: limegreen;
+ }
+
+ .second-section{
+     margin-top: 1.2rem;
+ }
+
+.user-col {
+     height: 250px;
+ }
+
+.icon{
+    width: 100%;
+    height: 40%;
+}
+
+.icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.user-name{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+.user-name p{
+    font-size: 30px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0px 20px;
+    border:2px solid rgb(123, 228, 188);
+}
