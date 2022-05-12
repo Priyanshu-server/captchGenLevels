@@ -74,7 +74,6 @@ app.post("/login",(req,res)=>{
         }
     })
     if (!req.body.user){
-        console.log("Inside the False Session !")
         req.session.hardLevel = req.session.hardLevel?req.session.hardLevel+1:1
         res.redirect("/login")
     }else{
@@ -90,6 +89,7 @@ app.get("/signup",authCheck,(req,res)=>{
 app.post('/signup',(req,res)=>{
     var userData = req.body
     users.push(userData)
+    console.log(users)
     res.redirect('/login')
 })
 
